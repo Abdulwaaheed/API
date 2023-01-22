@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#box {
+    width: 100%;
+    min-height: 800px;
+    background-color: rgb(85, 33, 147);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    height: 100px;
+    /* display: flex; */
+
+
+}
+
+
+#id {
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    height: 100px;
+    width: 90%;
+    border: 1px solid black;
+}
+
+i {
+    color: white;
+    margin: 0 10px 0 30px;
+}
+
+#names {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+#email {
+    color: grey;
+
+}
+
+#phone {
+    color: darkblue;
+}

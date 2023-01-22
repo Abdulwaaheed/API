@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+#box{
+    width: 100%;
+    min-height: 600px;
+    background-color: #fac41f;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+ul{
+    list-style: none;
+    width: 100%;
+    height: inherit;
+    display: flex;
+  
+
+}
+#id{
+    font-size: 20px;
+    padding: 5px;
+    
+    height: 40px;
+    width: 90%;
+    border: 1px solid black;
+}
+i{
+    color: black;
+    margin-left: 10px;
+}
